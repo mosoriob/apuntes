@@ -28,4 +28,6 @@ suffer as badly from the <em>blkio cgroup performance issue</em></strong></p>
 <p>De hecho en el comentario de arriba dice considerando <a href="https://www.thomas-krenn.com/en/wiki/Linux_Storage_Stack_Diagram#Diagram_for_Linux_Kernel_4.0">Linux Storage Stack Diagram</a>, da lo mismo medir afuera o dentro</p>
 <p><img src="https://www.inf.utfsm.cl/~mosorio/fig.png" alt="enter image description here"></p>
 <p>¿Entonces que es lo que puede cambiar? El algoritmo de IO scheduler y que el algoritmo tenga distitnas respuestas según la capa extra que tenemos cgroups</p>
+<p>Otros links:</p>
+<p><a href="https://www.mjmwired.net/kernel/Documentation/cgroups/blkio-controller.txt">https://www.mjmwired.net/kernel/Documentation/cgroups/blkio-controller.txt</a></p>
 
